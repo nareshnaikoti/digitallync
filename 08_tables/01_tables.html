@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>tables</title>
+    <style>
+        table{
+            width: 100%;
+        }
+
+      table,
+      th,
+      tr,
+      td {
+        border-collapse: collapse;
+        border: 2px solid blue;
+        padding: 10px;
+        border-spacing: 10px;
+        
+      }
+
+      th, td{
+        height: 50px;
+        vertical-align: bottom;
+        vertical-align: top;
+        text-align: center;
+        text-align: left;
+        text-align: right;
+      }
+
+      caption{
+        caption-side: bottom;
+        caption-side: top;
+        
+      }
+
+      td{
+        empty-cells: hide;
+        /* empty-cells: show; */
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1px">
+      <caption>
+        Student Table
+      </caption>
+      <thead>
+        <tr>
+          <th>Sl. No.</th>
+          <th>Student Id. No.</th>
+          <th>Student Name</th>
+          <th>Contact</th>
+          <th>Place</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>001</td>
+          <td>Naresh</td>
+          <td>9959588883</td>
+          <td>Hyderabad</tdan=>
+        </tr>
+
+        <tr>
+            <td>02</td>
+            <td>002</td>
+            <td>rajesh</td>
+            <td>4548764584</td>
+            <td rowspan="3" style="vertical-align: middle; text-align: center;">Malkajgiri</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>003</td>
+            <td>laxman</td>
+            <td>995747843</td>
+            
+          </tr>
+
+          <tr>
+            <td>04</td>
+            <td>004</td>
+            <td>srihari</td>
+            <td>95456456545</td>
+            
+          </tr>
+          <tr>
+            <td>05</td>
+            <td colspan="4" style="text-align: center;">005</td>
+           
+          </tr>
+
+        
+      </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="5">this is footer</td>
+            
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+1. What is Doctype
+   it is a type of version that we used.
+
+2. What are paired tags and unpaired tags give some examples.
+   a tag which have open tag and closing tag is called paird tags.
+   Eg: <head></head>, <body></body>, <title></title> etc...
+ 
+   a tag which have only open tag is called upaired tags
+   Eg: <br>, <hr> etc...
+
+3. What is Block Level and What is Inline and describe them? 
+   Block Level: It occupies the entire row, In Block level tag we can write inline tags also
+   		Eg: <p><b>hello this is block level</b></p>
+
+   Iline: In the inline tag the contenet will side by side based on the content size, we cannot write the block level tag inside the 		  inline tag and this is not good practice.
+	 	Eg: <p><b>its a bold</b></p>
+                    <p><i>its a italic</i><p>
+   
+4. What are the type of headings?
+	there are 6 type of headings available in html i.e.
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+	<h3>Heading 3</h3>
+	<h4>Heading 4</h4>
+	<h5>Heading 5</h5>
+	<h6>Heading 6</h6>
+
+5. Diff b/w b tag and strong tag?
+
+	b tag is non-sematic tag and its a inline tag, this used for bold the text
+	b{
+        	ont-weight: bold;
+   	}
+	
+	strong tag is sematic tag, it indicates that text has very importance.
+	strong tag is used for screen reader and give more importance when it is pronounced
+
+	strong {
+        	font-weight: bold;
+    	}
+    
+6. What are Schematic Tags?
+   The Schematic Tags have special meaning
+   Eg: <header> </header> tag and  <footer> </footer> and <strong> </strong> tag
+   article tag, figure tag, del tag etc...
+
+7. Diff b/w s tag and strike tag and del tag?
+   strike {
+    text-decoration: line-through;
+   }
+   s{
+    text-decoration: line-through;
+    }
+   del {
+     text-decoration: line-through;
+   }
+8. Diff b/w em tag and i tag?
+    em {
+        font-style: italic;
+    }
+    i {
+        font-style: italic;
+    }
+Note: em tag is best for screen readers and which give more importance
+9. Diff b/w span tag and mark tag
+
+Note: Both the tags are used for higlights, span tag also can be in links
+span tag used for highlighting text and we have to style it explicity
+
+10. Diff b/w u tag and ins tag
+    u {
+        text-decoration: underline;
+    }
+    ins {
+        text-decoration: underline;
+    }
+11. Diff b/w small tag and big tag
+    small {
+        font-size: smaller;
+    }
+    big {
+        font-size: larger;
+    }
+12. Diff b/w sup and sub tag?
+    Note: For Mathematical and Chemaical formuals we ise sup tag and sub tag
+    sup {
+        vertical-align: super;
+        font-size: smaller;
+    }
+    sub {
+        vertical-align: sub;
+        font-size: smaller;
+    }
+13. Diff b/w pre and sub code?
+    Note: Used for Computer Code
+
+14. Diff b/w br and hr code?
+    Note: br and hr tags are unpaired tag 
+    

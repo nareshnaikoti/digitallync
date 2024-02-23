@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <fieldset>
+        <legend>SIGN UP FORM</legend>
+        <form action="" >
+            <!-- first name -->
+            <label for="fName">First Name :</label>
+            <input type="text" id="fName" name="fName" required placeholder="Enter First Name" autocomplete="off">
+            <br><br>
+
+            <!-- last name  -->
+            <label for="lName">Last Name :</label>
+            <input type="text" id="lName" name="lName" required placeholder="Enter Last Name" autocomplete="off">
+            <br><br>
+
+            <!-- email -->
+            <label for="E_mail">Email :</label>
+            <input type="email" id="E_mail" name="E_mail" required placeholder="Enter Email" autocomplete="off">
+            <br><br>
+
+            <!-- contact -->
+            <label for="contact">Contact :</label>
+            <input type="text" id="contact" name="contact" required placeholder="Enter Contact Number" autocomplete="off">
+            <br><br>
+
+            <!-- Gender -->
+            <label for="">Gender :</label>
+                <!-- male  -->
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+
+                <!-- female  -->
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- skills -->
+            <label for="">Skills :</label>
+
+            <label for="html">html</label>
+            <input type="checkbox" id="html" name="html"> ||
+
+            <label for="css">css</label>
+            <input type="checkbox" id="css" name="css"> ||
+
+            <label for="bootstrap">bootstrap</label>
+            <input type="checkbox" id="bootstrap" name="bootstrap"> ||
+
+            <label for="javascript">javascript</label>
+            <input type="checkbox" id="javascript" name="javascript"> ||
+
+            <label for="typescript">typescript</label>
+            <input type="checkbox" id="typescript" name="typescript"> ||
+
+            <label for="angular">angular</label>
+            <input type="checkbox" id="angular" name="angular">
+            <br><br>
+
+        <!-- Date of Birth -->
+        <label for="DOB">Date of Birth :</label>
+        <input type="date" id="DOB" name="DOB">
+
+        <!-- time -->
+        <label for="time">time of birth</label>
+        <input type="time" id="time" name="time">
+
+        <br><br>
+
+        <!-- file tag  -->
+
+        <label for="file">Upload birth certificate</label>
+        <input type="file" id="file" name="file">
+
+        <!-- reset  -->
+
+        <input type="reset" name="" id="">
+
+            <!-- sumbit  -->
+        <input type="signup" name="" id="">
+
+        </form>
+        <button onclick="location.href = '02_dev';" id="myButton" value="loginpage">Login</button>
+        <a button href="">loginpage</a>
+    </fieldset>
+  </body>
+</html>
